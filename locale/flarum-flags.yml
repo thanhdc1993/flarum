@@ -1,0 +1,60 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: "Treo cờ bài viết"
+      view_flags_label: "Xem bài viết bị treo cờ"
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: "URL đến Nguyên tắc cộng đồng"
+      title: "Thiết lập"
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: "Cảm ơn bạn đã gắn cờ bài viết này. Chúng tôi sẽ xem xét."
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: "Không thích hợp"
+      reason_inappropriate_text: "bài này là xúc phạm, lăng mạ, hoặc vi phạm <a>nguyên tắc cộng đồng</a>."
+      reason_off_topic_label: Off-topic
+      reason_off_topic_text: "Bài này không liên quan đến các cuộc thảo luận hiện tại và cần được di chuyển đi nơi khác."
+      reason_other_label: "Lí do khác"
+      reason_spam_label: Spam
+      reason_spam_text: "Bài này có nội dung quảng cáo."
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: "Không treo cờ"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_tooltip: "Tháo cờ"
+      flagged_by_text: "{username} đã treo cờ"
+      flagged_by_with_reason_text: "{username} đã treo cờ với lí do {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: "Treo cờ"
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: "Treo cờ"
+    flagged_posts: "Bài viết đã treo cờ"

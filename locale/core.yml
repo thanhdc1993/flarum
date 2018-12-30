@@ -1,0 +1,548 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "Nếu bạn là nhà phát triển, bạn có thể <a>đọc thêm tài liệu</a> và bắt đầu tự tạo cho mình các phần mở rộng."
+      install_text: "Trong khi đó, bạn có thể tìm kiếm thêm phần mở rộng tại <a>Cộng đồng Flarum</a> và cài đặt chúng bằng tay sử dụng Composer."
+      temporary_text: "Vào một ngày đẹp trời, hộp thoại này sẽ cho phép bạn thêm một phần mở rộng cho diễn đàn của bạn một cách dễ dàng. Chúng tôi đang xây dựng một hệ sinh thái như chúng tôi đã nói!"
+      title: Thêm phần mở rộng
+    # These translations are used in the Appearance page.
+    appearance:
+      colored_header_label: "Tô màu đầu trang"
+      colors_heading: "Màu sắc"
+      colors_text: "Chọn hai màu sắc với chủ đề diễn đàn của bạn. Màu đầu tiên được chọn để làm nổi bật, màu thứ hai dùng làm màu nền."
+      custom_footer_heading: "Chân trang tùy chỉnh"
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: "Tùy chỉnh đầu trang"
+      custom_header_text: => core.ref.custom_header_text
+      custom_styles_heading: "Tùy chỉnh giao diện"
+      custom_styles_text: "Thêm mã LESS/CSS của riêng bạn để được áp dụng trên các kiểu mặc định của Flarum."
+      dark_mode_label: "Màu tối"
+      edit_css_button: "Chỉnh sửa CSS"
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
+      enter_hex_message: "Vui lòng chỉ nhập mã màu dạng hex."
+      favicon_heading: Favicon
+      favicon_text: "Tải lên một hình ảnh để được hiển thị như là biểu tượng phím tắt của diễn đàn."
+      logo_heading: Logo
+      logo_text: "Tải lên một hình ảnh sẽ được hiển thị thay cho tiêu đề diễn đàn."
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: "Ngôn ngữ mặc định"
+      forum_description_heading: "Mô tả diễn đàn"
+      forum_description_text: "Vài thông tin mô tả về hoạt động diễn đàn. Mô tả sẽ được hiển thị trên công cụ tìm kiếm."
+      forum_title_heading: "Tiêu đề"
+      home_page_heading: "Trang Chủ"
+      home_page_text: "Chọn trang mà lần đầu tiên người dùng sẽ nhìn thấy khi họ ghé thăm diễn đàn của bạn. Nếu nhập vào một giá trị tùy chỉnh , sử dụng đường dẫn tương đối đến thư mục gốc diễn đàn."
+      saved_message: "Thay đổi của bạn đã được lưu."
+      show_language_selector_label: "Hiển thị ngôn ngữ đã chọn"
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: "Banner đầu trang"
+      welcome_banner_text: "Thiết lập các văn bản hiển thị đầu trang trong trang thảo luận."
+
+    # These translations are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
+      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
+      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
+      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
+      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
+      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      welcome_text: "Bảng điều khiển"
+      tools_button: "Công cụ"
+      clear_cache_button: "Xóa bộ nhớ đệm"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Tùy biến LESS/CSS của bạn để áp dụng trên <a>styles mặc định</a>."
+      submit_button: => core.ref.save_changes
+      title: "Chỉnh sửa CSS"
+
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+    
+    # These translations are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: "Màu"
+      delete_button: "Xóa nhóm"
+      delete_confirmation: "Bạn có chắc chắn muốn xóa nhóm này ? Các thành viên trong nhóm sẽ không bị xóa."
+      icon_label: "Biểu tượng"
+      icon_text: "Nhập tên bất kì biểu tượng nào trong <a>FontAwesome</a>, <em>không có</em> tiền tố <code>fa-</code> ở đầu."
+      name_label: "Tên"
+      plural_placeholder: "Tên số nhiều (vd: Mods)"
+      singular_placeholder: "Tên số ít (vd: Mod)"
+      submit_button: => core.ref.save_changes
+      title: "Tạo nhóm"
+
+    edit_header:
+      customize_text: => core.ref.custom_header_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_header_title
+
+    email:
+      account_heading: "Tài khoản SMTP"
+      addresses_heading: "Địa chỉ email"
+      driver_label: Driver
+      encryption_label: "Mã hóa"
+      from_label: "Gửi từ"
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: "Cổng"
+      server_heading: "Máy chủ SMTP"
+      submit_button: => core.ref.save_changes
+      text: "Định cấu hình cài đặt và địa chỉ SMTP mà diễn đàn của bạn sẽ sử dụng để gửi email"
+      username_label: => core.ref.username
+
+
+    # These translations are used in the Extensions page.
+    extensions:
+      add_button: "Thêm phần mở rộng"
+      disable_button: "Vô hiệu"
+      enable_button: "Kích hoạt"
+      settings_button: "Cài đặt"
+      uninstall_button: "Gỡ bỏ"
+
+    # These translations are used in the session dropdown menu.
+    header:
+      log_out_button: "Đăng xuất"
+
+    # These translations are used in the modal dialog displayed when loading extensions.
+    loading:
+      title: "Vui lòng chờ..."
+
+    # These translations are used in the navigation bar.
+    nav:
+      appearance_button: "Hiển thị"
+      appearance_text: "Tùy chỉnh màu sắc , biểu tượng, và các biến số khác của diễn đàn."
+      basics_button: "Cơ bản"
+      basics_text: "Đặt tiêu đề, ngôn ngữ, và các thiết lập cơ bản khác."
+      dashboard_button: "Bảng tin"
+      dashboard_text: "Sơ lược về diễn đàn."
+      extensions_button: "Mở rộng"
+      extensions_text: "Bổ sung thêm chức năng cho diễn đàn."
+      permissions_button: "Phân quyền"
+      permissions_text: "Cấu hình người dùng có thể xem và làm gì."
+      email_button: "Thư điện tử"
+      email_text: "Cấu hình thư điện tử"
+
+
+    upload_image:
+      upload_button: "Tải ảnh lên"
+      remove_button: "Xóa ảnh này"
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: "cho phép đổi tên"
+      allow_post_editing_label: "Cho phép chỉnh sửa bài"
+      create_heading: "Tạo"
+      delete_discussions_forever_label: "Xóa vĩnh viễn các thảo luận"
+      delete_discussions_label: "Xóa các thảo luận"
+      delete_posts_forever_label: "Xóa vĩnh viễn bài viết"
+      edit_and_delete_posts_label: "Chỉnh sửa và xóa bài viết"
+      global_heading: "Chung"
+      moderate_heading: "Quản lí"
+      new_group_button: "Thêm nhóm"
+      participate_heading: "Tham gia"
+      read_heading: "Đọc"
+      rename_discussions_label: "Đổi tên thảo luận"
+      reply_to_discussions_label: "Trả lời thảo luận"
+      sign_up_label: "Đăng kí"
+      start_discussions_label: "Mở thảo luận mới"
+      view_discussions_label: "Xem thảo luận"
+      view_user_list_label: "Xem danh sách người dùng"
+      view_last_seen_at_label: "Xem người dùng lần cuối nhìn thấy"
+      view_post_ips_label: "Xem địa chỉ IP bài viết"
+      delete_posts_label: "Xóa bài viết"
+      edit_posts_label: "Sửa bài viết"
+
+    # These translations are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: "Vô thời hạn"
+      allow_some_minutes_button: "Trong {count} phút|Trong {count} phút"
+      allow_ten_minutes_button: "Trong 10 phút"
+      allow_until_reply_button: "Cho đến trả lời tiếp theo"
+      everyone_button: "Mọi người"
+      members_button: => core.group.members
+      signup_closed_button: "Đóng"
+      signup_open_button: "Mở"
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
+
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_label: "Xác nhận mật khẩu"
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: "Mật khẩu không đúng."
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These translations are used in the Change Password modal dialog.
+    change_password:
+      send_button: "Đặt lại mật khẩu"
+      text: "Nhấn vào nút bên dưới và kiểm tra email của bạn để lấy liên kết thay đổi mật khẩu."
+      title: => core.ref.change_password
+
+    # These translations are used by the composer controls.
+    composer:
+      close_tooltip: "Đóng"
+      exit_full_screen_tooltip: "Thoát chế độ toàn màn hình"
+      full_screen_tooltip: "Toàn màn hình"
+      minimize_tooltip: "Thu nhỏ"
+      preview_tooltip: "Xem trước"
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: "Viết một bài viết .."
+      discard_confirmation: "Bạn chưa đăng thảo luận. Bạn có muốn loại bỏ nó ?"
+      submit_button: "Bài thảo luận"
+      title: => core.ref.start_a_discussion
+      title_placeholder: "Tiêu đề thảo luận"
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "Bạn chưa lưu thay đổi. Bạn có muốn loại bỏ nó ?"
+      post_link: "Bài viết #{number} ở {discussion}"
+      submit_button: => core.ref.save_changes
+
+    # These translations are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "Bạn chưa đăng trả lời. Bạn có muốn loại bỏ nó ?"
+      posted_message: "Trả lời của bạn đã được đăng."
+      submit_button: "Trả lời"
+      view_button: "Xem"
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: "Không thể trả lời"
+      cannot_reply_text: "Bạn không có quyền trả lời thảo luận này."
+      delete_button: => core.ref.delete
+      delete_confirmation: "Bạn có muốn xóa thảo luận ?"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: "Hãy đăng nhập"
+      rename_button: "Đổi tên"
+      rename_text: "Nhập tiêu đề mới cho thảo luận này:"
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These translations are used in the discussion list.
+    discussion_list:
+      empty_text: "Có vẻ như không có thảo luận nào ở đây."
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: "Đánh dấu đã đọc"
+      replied_text: "{username} đã trả lời {ago}"
+      started_text: "{username} đã bắt đầu {ago}"
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: Activate User
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: "Nhóm"
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Set new password
+      submit_button: => core.ref.save_changes
+      title: "Chỉnh sửa người dùng"
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
+    # These translations are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: "Chúng tôi đã gửi cho bạn một email có chứa một liên kết để đặt lại mật khẩu của bạn . Kiểm tra thư mục thư rác của bạn nếu bạn không nhận được nó trong vòng một hoặc hai phút tới."
+      not_found_message: "Không có người dùng nào đăng ký với email này."
+      submit_button: "Khôi phục mật khẩu"
+      text: "Nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn."
+      title: "Quên mật khẩu"
+
+    # These translations are used in the header and session dropdown menu.
+    header:
+      admin_button: "Quản trị"
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: "Hồ sơ"
+      search_placeholder: "Tìm kiếm trong diễn đàn"
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: "Không thể bắt đầu thảo luận."
+      mark_all_as_read_confirmation: "Bạn có chắc chắn bạn muốn đánh dấu tất cả các cuộc thảo luận là đã đọc?"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: "Tải lại"
+      start_discussion_button: => core.ref.start_a_discussion
+
+    # These translations are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: "Gần đây"
+      newest_button: "Mới nhất"
+      oldest_button: "Cũ nhất"
+      relevance_button: "Phù hợp"
+      top_button: "Hàng đầu"
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      forgot_password_link: "Quên mật khẩu?"
+      invalid_login_message: "Thông tin đăng nhập không chính xác."
+      password_placeholder: => core.ref.password
+      sign_up_text: "Chưa có tài khoản? <a>Đăng kí ngay</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: "Tên người dùng hoặc email"
+      remember_me_label: "Nhớ đăng nhập"
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username} đã thay đổi tiêu đề"
+      empty_text: "Không có thông báo"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These translations are used by tooltips displayed for individual posts.
+    post:
+      edited_tooltip: "{username} đã sửa {ago}"
+      number_tooltip: "Bài viết #{number}"
+      edited_text: "Đã chỉnh sửa"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These translations are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: "Hiện tại"
+      original_post_link: "Bài gốc"
+      unread_text: "{count} chưa đọc"
+      viewing_text: "{index} của {count} bài|{index} trong {count} bài"
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_text: "{username} đã đổi tiêu đề {old} thành {new}."
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} sau"
+
+    # These translations are used by the search results dropdown list.
+    search:
+      all_discussions_button: 'Tìm các thảo luận về "{query}"'
+      discussions_heading: => core.ref.discussions
+      users_heading: "Người dùng"
+
+    # These translations are used in the Settings page.
+    settings:
+      account_heading: "Tài khoản"
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: "Ai đó đổi tên cuộc thảo luận của tôi"
+      privacy_disclose_online_label: "Cho phép người khác nhìn thấy khi tôi trực tuyến"
+      privacy_heading: "Riêng tư"
+      title: => core.ref.settings
+
+    # These translations are used in the Sign Up modal dialog.
+    sign_up:
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "Đã có tài khoản? <a>Đăng nhập</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "Chào mừng, {username}!"
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: "Xóa"
+      avatar_upload_button: "Tải lên"
+      bio_placeholder: "Viết gì đó về bạn"
+      discussions_link: => core.ref.discussions
+      in_discussion_text: "Tại {discussion}"
+      joined_date_text: "Đã tham gia {ago}"
+      online_text: Online
+      posts_load_more_button: => core.ref.load_more
+      posts_link: "Bài viết"
+      settings_link: => core.ref.settings
+      posts_empty_text: "Hiện tại không có bài viết nào."
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      button: "Điều khiển"
+      delete_button: => core.ref.delete
+      delete_confirmation: "Bạn có chắc chắn muốn xóa người dùng này? Tất cả các bài viết của người dùng sẽ bị xóa."
+      edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: "Gửi lại xác nhận"
+      sent_message: "Đã gửi"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: "Ẩn"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[đã xóa]"
+
+    # These translations are displayed as error messages.
+    error:
+      generic_message: "Rất tiếc! Có gì đó không ổn. Hãy tải lại trang và thử lại!"
+      not_found_message: "Trang yêu cầu không tìm thấy."
+      permission_denied_message: "Bạn không có quyền để làm điều đó."
+      rate_limit_exceeded_message: "Hiện đang quá tải. Hãy tải lại trang và thử lại!"
+
+    # These translations are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These translations are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      three_text: "{first}, {second}, và {third}"
+      two_text: "{first} và {second}"
+
+  # Translations in this namespace are used in basic HTML interface.
+  basic:
+    javascript_disabled_message: "Vui lòng bật Javascript để được hỗ trợ tốt nhất."
+    load_error_message: "Tải trang không thành công."
+    loading_text: "Chờ tí..."
+    next_page_button: "Trang tiếp theo"
+    previous_page_button: "Trang trước"
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      body: |
+        Xin chào {username}!
+
+        Ai đó đã đăng kí tại {forum} với email này.
+
+        Nếu đó là bạn vui lòng click link bên dưới để kích hoạt tài khoản:
+        {url}
+
+        Nếu không phải bạn, đơn giản hãy bỏ qua thư này.
+      subject: "Kích hoạt tài khoản"
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      body: |
+        Xin chào {username}!
+
+        Ai đó đã đổi email tại {forum} thành email này.
+
+        Nếu đó là bạn vui lòng click link bên dưới để kích hoạt email:
+        {url}
+
+        Nếu không phải bạn, đơn giản hãy bỏ qua thư này.
+      subject: "Xác nhận Email mới"
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      body: |
+        Hey {username}!
+
+        Ai đó đã gửi yêu cầu lấy lại mật khẩu tại {forum} với email này.
+
+        Nếu đó là bạn vui lòng click link bên dưới để khôi phục mật khẩu:
+        {url}
+
+        Nếu không phải bạn, đơn giản hãy bỏ qua thư này.
+      subject: "Khôi phục mật khẩu"
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: "Tất cả thảo luận"
+    change_email: "Đổi Email"
+    change_password: "Đổi mật khẩu"
+    confirmation_email_sent: "Chúng tối đã gửi link vào {email}. Nếu chưa tìm thấy hãy kiểm tra mục spam."
+    delete: "Xóa bỏ"
+    delete_forever: "Xóa vĩnh viễn"
+    discussions: "Thảo luận"
+    edit: "Chỉnh sửa"
+    email: Email
+    load_more: "Tải thêm"
+    log_in: "Đăng nhập"
+    log_out: "Đăng xuất"
+    mark_all_as_read: "Đánh dấu tất cả đã đọc"
+    notifications: "Thông báo"
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: "Mật khẩu"
+    reply: "Trả lời"                             # Referenced by flarum-mentions.yml
+    restore: "Hoàn tác"
+    save_changes: "Lưu thay đổi"                 # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: "Cài đặt"
+    sign_up: "Đăng kí"
+    some_others: "{count} người khác|{count} người khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: "Bắt đầu thảo luận"
+    username: "Tên người dùng"
+    write_a_reply: "Viết trả lời.."
+    you: "Bạn"                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
+
+  # Translations in this namespace are used to translate default group names.
+  group:
+    admin: Admin
+    admins: Admins
+    guest: Guest
+    guests: Guests
+    member: Member
+    members: Members
+    mod: Mod
+    mods: Mods
+
+
+flarum-statistics:
+  admin:
+    statistics:
+      total_label: "Tổng người dùng"
+      discussions_heading: "Thảo luận"
+      posts_heading: "Bài đăng"
+      users_heading: "Người dùng"
+      last_7_days_label: "7 ngày trước"
+      today_label: "Hôm nay"
+      last_28_days_label: "28 ngày trước"
+      last_12_months_label: "12 tháng trước"

@@ -1,0 +1,24 @@
+flarum-markdown:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (emoji autocompletion function).
+    composer:
+      bold_tooltip: "Chữ đậm"
+      code_tooltip: "Chèn mã"
+      header_tooltip: "Tiêu đề"
+      italic_tooltip: "Chữ nghiêng"
+      link_tooltip: "Liên kết"
+      ordered_list_tooltip: "Kiểu danh sách dạng số"
+      quote_tooltip: "Trích dẫn"
+      unordered_list_tooltip: "Kiểu danh sách bullet"
+
+flarum-emoji:
+  forum:
+    composer:
+      emoji_tooltip: "Biểu tượng"

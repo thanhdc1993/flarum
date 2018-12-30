@@ -1,0 +1,76 @@
+validation:
+  accepted: ":attribute phải được chấp nhận."
+  active_url: ":attribute không phải là URL hợp lệ."
+  after: ":attribute  :date."
+  alpha: ":attribute chỉ có thể chứa các chữ cái."
+  alpha_dash: ":attribute chỉ có thể chứa các chữ cái, số và dấu gạch ngang."
+  alpha_num: ":attribute chỉ có thể chứa các chữ cái và số."
+  array: ":attribute phải là một mảng."
+  before: ":attribute phải là thời gian trước :date."
+  between:
+    numeric: ":attribute phải nằm trong khoảng :min và :max."
+    file: ":attribute phải nằm trong khoảng :min và :max kb."
+    string: ":attribute phải nằm trong khoảng :min và :max kí tự."
+    array: ":attribute phải có trong khoảng :min và :max phần tử."
+  boolean: ":attribute phải là true hoặc false."
+  confirmed: ":attribute xác nhận không khớp."
+  date: ":attribute không phải là một ngày hợp lệ."
+  date_format: ":attribute không phù hợp với định dạng :other."
+  different: ":attribute và :other phải khác nhau."
+  digits: ":attribute phải là những số :digits."
+  digits_between: ":attribute phải nằm trong khoảng :min và :max."
+  distinct: ":attribute có giá trị trùng lặp."
+  email: ":attribute phải là địa chỉ email hợp lệ."
+  exists: ":attribute đã chọn không hợp lệ."
+  filled: ":attribute là bắt buộc."
+  image: ":attribute phải là hình ảnh."
+  in: ":attribute đã chọn không hợp lệ."
+  in_array: ":attribute không tồn tại trong :other."
+  integer: ":attribute phải là số nguyên."
+  ip: ":attribute phải là một địa chỉ IP hợp lệ."
+  json: ":attribute phải là một chuỗi JSON hợp lệ."
+  max:
+    numeric: ":attribute không được lớn hơn :max."
+    file: ":attribute không được lớn hơn :max kb."
+    string: ":attribute không được lớn hơn :max kí tự."
+    array: ":attribute không được nhiều hơn :max phần tử."
+  mimes: ":attribute phải là một tập tin loại: :values."
+  min:
+    numeric: ":attribute phải ít nhất là :min."
+    file: ":attribute phải ít nhất là :min kb."
+    string: ":attribute phải ít nhất là :min kí tự."
+    array: ":attribute phải có ít nhất :min phần tử."
+  not_in: ":attribute đã chọn không hợp lệ."
+  numeric: ":attribute phải là một số."
+  present: ":attribute phải có mặt."
+  regex: ":attribute định dạng không hợp lệ."
+  required: ":attribute là bắt buộc."
+  required_if: ":attribute là bắt buộc khi :other là :value."
+  required_unless: ":attribute là bắt buộc trừ khi :other trong :values."
+  required_with: ":attribute là bắt buộc khi :values có mặt."
+  required_with_all: ":attribute là bắt buộc khi :values có mặt."
+  required_without: ":attribute là bắt buộc khi :values không có mặt."
+  required_without_all: ":attribute là bắt buộc khi không có :values nào."
+  same: ":attribute và :other phải khớp."
+  size:
+    numeric: ":attribute phải là :size."
+    file: ":attribute phải là :size kb."
+    string: ":attribute phải là :size kí tự."
+    array: ":attribute phải chứa :size phần tử."
+  string: ":attribute phải là một chuỗi."
+  timezone: ":attribute phải là một khu vực hợp lệ."
+  unique: ":attribute đã được lấy."
+  url: ":attribute định dạng không hợp lệ."
+
+  attributes:
+    username: username
+    password: password
+    email: email
+    title: title
+    content: content
+    name_singular: singular name
+    name_plural: plural name
+
+  custom:
+    username:
+      regex: "Tên đăng nhập chỉ có thể chứa các chữ cái, số và dấu gạch ngang."
