@@ -1,5 +1,5 @@
 {
-    "name": "timelany/vietnamese-language",
+    "name": "flarum/vietnamese-language",
     "type": "flarum-extension",
     "description": "Gói ngôn ngữ tiếng Việt",
     "keywords": ["locale"],
