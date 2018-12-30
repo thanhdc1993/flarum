@@ -3,5 +3,5 @@
 ## Cài đặt
 
 ```
-composer require flarum/vietnamese-language
+composer require flarum/vietnamese
 ```
