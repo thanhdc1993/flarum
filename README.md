@@ -3,5 +3,5 @@
 ## Cài đặt
 
 ```
-composer require thanhdc1993/vietnamese
+composer require timelany/vietnamese
 ```
