@@ -3,5 +3,5 @@
 ## Cài đặt
 
 ```
-composer require ladyga14/flarum-ext-vietnamese
+composer require flarum/vietnamese-language
 ```
