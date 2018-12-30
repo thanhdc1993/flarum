@@ -3,5 +3,5 @@
 ## Cài đặt
 
 ```
-composer require flarum/vietnamese
+composer require thanhdc1993/vietnamese
 ```
