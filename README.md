@@ -1,4 +1,7 @@
-# flarum
-Gói ngôn ngữ tiếng Việt cho Flarum
-Cài đặt
+# Gói Ngôn Ngữ Tiếng Việt Cho Flarum
 
+## Cài đặt
+
+```
+composer require ladyga14/flarum-ext-vietnamese
+```

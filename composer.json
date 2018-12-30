@@ -1,0 +1,29 @@
+{
+    "name": "timelany/vietnamese-language",
+    "type": "flarum-extension",
+    "description": "Gói ngôn ngữ tiếng Việt",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Tiếng Việt",
+            "icon": {
+                "name": "star",
+                "color": "#ff0",
+                "backgroundColor": "#f00",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng Việt"
+        }
+    }
+}
